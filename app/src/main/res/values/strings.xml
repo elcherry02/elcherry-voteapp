@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">landing page</string>
+    <string name="landingpage_pic">landingpage_pic</string>
+    <string name="vote_now">VOTE NOW</string>
+    <string name="welcome_to_photo_vote">WELCOME TO PHOTO VOTE</string>
+    <string name="january_winner">january_winner</string>
+    <string name="winner_of_january">WINNER OF JANUARY</string>
+    <string name="entries_of_the_month">ENTRIES OF THE MONTH</string>
+    <string name="see_entries">SEE ENTRIES</string>
+    <string name="photo_vote">PHOTO VOTE</string>
+    <string name="textland">Vote your favorite photo and let it be this month\'s winner!</string>
+    <string name="logo">logo</string>
+    <string name="bot_cont">bot_cont</string>
+</resources>

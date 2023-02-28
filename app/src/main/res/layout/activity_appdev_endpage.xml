@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".appdev_endpage">
+
+    <TextView
+        android:id="@+id/thanku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="THANK YOU FOR VOTING"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:gravity="center"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="290dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/backvote"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thanku"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/username_edit"
+            android:padding="15dp"
+            android:text="BACK TO VOTING PAGE"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout_btn"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="72dp"
+        android:backgroundTint="#407C76"
+        android:padding="15dp"
+        android:text="Log Out"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
